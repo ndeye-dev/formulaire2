@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(60deg, #4B2C52,#BF669B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    top: 50%;
+}
+label, p, i{
+    color: white;
+}
+label{
+    margin: 20px;
+}
+input{
+    color: white;
+}
+.A1{
+    padding: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.A2{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.A3{
+
+    margin: 20px;
+    padding-top: 10px;
+}
+.A4{
+    padding: 10px;
+}
+.milieu{
+    display: flex;
+    align-items: center;
+    gap: 40PX;
+    padding: 0px;
+    margin: 0;
+}
+.all{
+    display: flex;
+    align-items: center;
+    gap: 30PX;
+}
+i{
+   margin-top: -10px;
+   
+}
+h2{
+    color: #BF669B;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+input{
+
+    background-color: #2d0436;
+    padding: 5px 5px 10px 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.contenu{
+    background-color: #2d0436;
+    padding: 10px 10px 5px 5px;
+}
+.tout{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+input[type=submit]{
+    padding: 10px;
+    padding-top: 10px;
+    width: 120px;
+    margin-left: 20px;
+    background: linear-gradient( #d112fc,#4B2C52);
+    border: none;
+}
+.paragraphe{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    background: #991d67c0;
+    width: 300px;
+    height: 133px;
+    font-size: 13px;
+}
+@media screen and (max-width:700PX) {
+    .tout{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraphe{
+        position: relative;
+        background: #991d67c0;
+    }
+    input[type=submit]{
+        margin-left: 30%;
+        
+    }
+    .A1{
+        padding: 10px;
+        margin-left: 30px;
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    .A2{
+        margin-left: 40px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .A3{
+    
+        margin: 20px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .A4{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .contenu{
+        background-color: #2d0436;
+        padding: 10px;
+        margin-right: 20px;
+    }
+}
